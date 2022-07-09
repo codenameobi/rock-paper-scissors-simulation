@@ -4,11 +4,8 @@ using System.Text.Json;
 using rock_paper_scissors_simulation;
 
 Random random = new Random();
-Boolean playAgain = true;
 String playerA;
 String playerB;
-String answer;
-
 string _saveFileName = "todo.json";
 List<SavedGameModel> savedGames;
 string json;
@@ -18,14 +15,11 @@ int Draws = 0;
 int PlayerAScore = 0;
 int PlayerBScore = 0;
 
-
-//while (playAgain) {
 for (int i = 0; i < 100; i++)
 {
 
     playerA = "";
     playerB = "";
-    answer = "";
 
     playerA = "ROCK";
 
@@ -134,27 +128,24 @@ for (int i = 0; i < 100; i++)
                     new SavedGameModel { PlayerAWon = false, PlayerBWon = false, GameID = i },
                 };
             }
-            
+            break;
 
             // Serialize it to JSON
             json = JsonSerializer.Serialize(savedGames, new JsonSerializerOptions() { WriteIndented = true });
 
             // Save it to a file
             File.WriteAllText(_saveFileName, json);
-
-            break;
     }
 
 
 }
- json = File.ReadAllText(_saveFileName);
+json = File.ReadAllText(_saveFileName);
 
 List<SavedGameModel> items = JsonSerializer.Deserialize<List<SavedGameModel>>(json);
 
 // Check whether the list has loaded correctly
 foreach (var todo in items)
     Console.WriteLine(todo);
-
 Console.WriteLine("Draws: " + Draws);
 Console.WriteLine("PlayerA: " + PlayerAScore);
 Console.WriteLine("PlayerB: " + PlayerBScore);
