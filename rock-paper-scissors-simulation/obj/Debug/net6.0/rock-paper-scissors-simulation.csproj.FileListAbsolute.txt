@@ -1,0 +1,15 @@
+/Users/admin/Projects/rock-paper-scissors-simulation/rock-paper-scissors-simulation/bin/Debug/net6.0/rock-paper-scissors-simulation
+/Users/admin/Projects/rock-paper-scissors-simulation/rock-paper-scissors-simulation/bin/Debug/net6.0/rock-paper-scissors-simulation.deps.json
+/Users/admin/Projects/rock-paper-scissors-simulation/rock-paper-scissors-simulation/bin/Debug/net6.0/rock-paper-scissors-simulation.runtimeconfig.json
+/Users/admin/Projects/rock-paper-scissors-simulation/rock-paper-scissors-simulation/bin/Debug/net6.0/rock-paper-scissors-simulation.dll
+/Users/admin/Projects/rock-paper-scissors-simulation/rock-paper-scissors-simulation/bin/Debug/net6.0/rock-paper-scissors-simulation.pdb
+/Users/admin/Projects/rock-paper-scissors-simulation/rock-paper-scissors-simulation/obj/Debug/net6.0/rock-paper-scissors-simulation.csproj.AssemblyReference.cache
+/Users/admin/Projects/rock-paper-scissors-simulation/rock-paper-scissors-simulation/obj/Debug/net6.0/rock-paper-scissors-simulation.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/Projects/rock-paper-scissors-simulation/rock-paper-scissors-simulation/obj/Debug/net6.0/rock-paper-scissors-simulation.AssemblyInfoInputs.cache
+/Users/admin/Projects/rock-paper-scissors-simulation/rock-paper-scissors-simulation/obj/Debug/net6.0/rock-paper-scissors-simulation.AssemblyInfo.cs
+/Users/admin/Projects/rock-paper-scissors-simulation/rock-paper-scissors-simulation/obj/Debug/net6.0/rock-paper-scissors-simulation.csproj.CoreCompileInputs.cache
+/Users/admin/Projects/rock-paper-scissors-simulation/rock-paper-scissors-simulation/obj/Debug/net6.0/rock-paper-scissors-simulation.dll
+/Users/admin/Projects/rock-paper-scissors-simulation/rock-paper-scissors-simulation/obj/Debug/net6.0/refint/rock-paper-scissors-simulation.dll
+/Users/admin/Projects/rock-paper-scissors-simulation/rock-paper-scissors-simulation/obj/Debug/net6.0/rock-paper-scissors-simulation.pdb
+/Users/admin/Projects/rock-paper-scissors-simulation/rock-paper-scissors-simulation/obj/Debug/net6.0/rock-paper-scissors-simulation.genruntimeconfig.cache
+/Users/admin/Projects/rock-paper-scissors-simulation/rock-paper-scissors-simulation/obj/Debug/net6.0/ref/rock-paper-scissors-simulation.dll
