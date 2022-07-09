@@ -139,13 +139,7 @@ for (int i = 0; i < 100; i++)
 
 
 }
-json = File.ReadAllText(_saveFileName);
 
-List<SavedGameModel> items = JsonSerializer.Deserialize<List<SavedGameModel>>(json);
-
-// Check whether the list has loaded correctly
-foreach (var todo in items)
-    Console.WriteLine(todo);
 Console.WriteLine("Draws: " + Draws);
 Console.WriteLine("PlayerA: " + PlayerAScore);
 Console.WriteLine("PlayerB: " + PlayerBScore);
