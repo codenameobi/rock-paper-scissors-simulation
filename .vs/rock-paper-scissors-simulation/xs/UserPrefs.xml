@@ -8,7 +8,8 @@
   <MonoDevelop.Ide.ItemProperties.rock-paper-scissors-simulation PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="rock-paper-scissors-simulation/Program.cs">
     <Files>
-      <File FileName="rock-paper-scissors-simulation/Program.cs" Line="14" Column="24" />
+      <File FileName="rock-paper-scissors-simulation/Program.cs" Line="136" Column="52" />
+      <File FileName="rock-paper-scissors-simulation/SavedGameModel.cs" Line="12" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

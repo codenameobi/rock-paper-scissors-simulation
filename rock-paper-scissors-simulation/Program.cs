@@ -6,7 +6,7 @@ using rock_paper_scissors_simulation;
 Random random = new Random();
 String playerA;
 String playerB;
-string _saveFileName = "todo.json";
+string _saveFileName = "savedgame.json";
 List<SavedGameModel> savedGames;
 string json;
 
@@ -129,16 +129,23 @@ for (int i = 0; i < 100; i++)
                 };
             }
             break;
-
             // Serialize it to JSON
             json = JsonSerializer.Serialize(savedGames, new JsonSerializerOptions() { WriteIndented = true });
 
             // Save it to a file
             File.WriteAllText(_saveFileName, json);
     }
-
+    
 
 }
+
+json = File.ReadAllText(_saveFileName);
+
+List<SavedGameModel> items = JsonSerializer.Deserialize<List<SavedGameModel>>(json);
+
+// Check whether the list has loaded correctly
+foreach (var todo in items)
+    Console.WriteLine(todo);
 
 Console.WriteLine("Draws: " + Draws);
 Console.WriteLine("PlayerA: " + PlayerAScore);
